@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729522164639",
+    "project_id": "webrtctest-c54bc",
+    "storage_bucket": "webrtctest-c54bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729522164639:android:2f507dfaed386435e263aa",
+        "android_client_info": {
+          "package_name": "com.example.demo_agora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729522164639-kt3kspte0670m4t5fkbcigtdvo78klh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhh8p4mfyz82wNy6KDMLX0fytbkKHN0z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729522164639-kt3kspte0670m4t5fkbcigtdvo78klh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

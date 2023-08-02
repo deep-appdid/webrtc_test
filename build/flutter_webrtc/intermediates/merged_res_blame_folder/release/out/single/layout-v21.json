@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout-v21/notification_action.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.demo_agora"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:3:5-60
+11-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:3:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:4:5-70
+12-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:4:19-67
+13
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:5:5-65
+14-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:5:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:6:5-71
+15-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:6:22-68
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:7:5-79
+16-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+17-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:8:5-79
+17-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:9:5-80
+18-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:9:22-77
+19    <uses-permission
+19-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:10:5-68
+20        android:name="android.permission.BLUETOOTH"
+20-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:10:22-65
+21        android:maxSdkVersion="30" />
+21-->[com.twilio:audioswitch:1.1.7] C:\Users\Appdid\.gradle\caches\transforms-3\bbc7c58ce25ebcc6941e111bd74c0b88\transformed\jetified-audioswitch-1.1.7\AndroidManifest.xml:11:9-35
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:11:5-74
+22-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:11:22-71
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:13:5-67
+23-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:13:22-64
+24    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+24-->[com.twilio:audioswitch:1.1.7] C:\Users\Appdid\.gradle\caches\transforms-3\bbc7c58ce25ebcc6941e111bd74c0b88\transformed\jetified-audioswitch-1.1.7\AndroidManifest.xml:12:5-76
+24-->[com.twilio:audioswitch:1.1.7] C:\Users\Appdid\.gradle\caches\transforms-3\bbc7c58ce25ebcc6941e111bd74c0b88\transformed\jetified-audioswitch-1.1.7\AndroidManifest.xml:12:22-73
+25
+26    <application
+27        android:name="android.app.Application"
+27-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:14:9-42
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] C:\Users\Appdid\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="demo_webrtc" >
+31-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:16:9-36
+32        <activity
+32-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:17:9-36:20
+33            android:name="com.example.demo_agora.MainActivity"
+33-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:18:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:19:13-163
+35            android:exported="true"
+35-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:20:13-36
+36            android:hardwareAccelerated="true"
+36-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:21:13-47
+37            android:launchMode="singleTop"
+37-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:22:13-43
+38            android:theme="@style/LaunchTheme"
+38-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:23:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:24:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:29:13-31:57
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:30:17-72
+49                android:resource="@style/NormalTheme" />
+49-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:31:17-54
+50
+51            <intent-filter>
+51-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:32:13-35:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:33:17-69
+52-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:33:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:34:17-77
+54-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:34:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:39:9-41:33
+62            android:name="flutterEmbedding"
+62-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:40:13-44
+63            android:value="2" />
+63-->D:\Deep Projects\webrtc_test\webrtc_test\android\app\src\main\AndroidManifest.xml:41:13-30
+64
+65        <service
+65-->[:cloud_firestore] D:\Deep Projects\webrtc_test\webrtc_test\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:cloud_firestore] D:\Deep Projects\webrtc_test\webrtc_test\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:18:13-37
+69            <meta-data
+69-->[:cloud_firestore] D:\Deep Projects\webrtc_test\webrtc_test\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+70-->[:cloud_firestore] D:\Deep Projects\webrtc_test\webrtc_test\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:cloud_firestore] D:\Deep Projects\webrtc_test\webrtc_test\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[:firebase_core] D:\Deep Projects\webrtc_test\webrtc_test\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+73-->[:firebase_core] D:\Deep Projects\webrtc_test\webrtc_test\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_core] D:\Deep Projects\webrtc_test\webrtc_test\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:19:13-21:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+76-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:20:17-111
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\Appdid\.gradle\caches\transforms-3\49b686e1b0be08befcf75f35a671ca7f\transformed\jetified-firebase-firestore-24.7.0\AndroidManifest.xml:21:17-82
+78        </service>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+86
+87        <provider
+87-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+88            android:name="com.google.firebase.provider.FirebaseInitProvider"
+88-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+89            android:authorities="com.example.demo_agora.firebaseinitprovider"
+89-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:20.3.3] C:\Users\Appdid\.gradle\caches\transforms-3\6f9fa5902813f78de2aefcdfcdb180f7\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Appdid\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Appdid\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Appdid\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Appdid\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Appdid\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Appdid\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Appdid\.gradle\caches\transforms-3\58aa1384bde170d075503b845cfcf44c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+102    </application>
+103
+104</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/layout/custom_dialog.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/layout/custom_dialog.xml"
+    }
+]

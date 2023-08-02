@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-10:/drawable-v21/notification_action_background.xml",
+        "source": "com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2:/drawable-v21/notification_action_background.xml"
+    }
+]

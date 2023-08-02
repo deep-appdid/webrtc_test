@@ -1,0 +1,12 @@
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-1.0.0-beta04-0 C:\Users\Appdid\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-annotation-experimental-1.1.0-1 C:\Users\Appdid\.gradle\caches\transforms-3\6c0c163cc77ae6c91f9f7dfcd179c29c\transformed\jetified-annotation-experimental-1.1.0\res
+com.cloudwebrtc.webrtc.flutter_webrtc-core-1.6.0-2 C:\Users\Appdid\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\res
+com.cloudwebrtc.webrtc.flutter_webrtc-jetified-window-java-1.0.0-beta04-3 C:\Users\Appdid\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
+com.cloudwebrtc.webrtc.flutter_webrtc-main-4 C:\Users\Appdid\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_webrtc-0.9.36\android\src\main\res
+com.cloudwebrtc.webrtc.flutter_webrtc-release-5 C:\Users\Appdid\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_webrtc-0.9.36\android\src\release\res
+com.cloudwebrtc.webrtc.flutter_webrtc-pngs-6 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\generated\res\pngs\release
+com.cloudwebrtc.webrtc.flutter_webrtc-resValues-7 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\generated\res\resValues\release
+com.cloudwebrtc.webrtc.flutter_webrtc-rs-8 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\generated\res\rs\release
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-9 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-mergeReleaseResources-10 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.cloudwebrtc.webrtc.flutter_webrtc-merged_res-11 D:\Deep Projects\webrtc_test\webrtc_test\build\flutter_webrtc\intermediates\merged_res\release
